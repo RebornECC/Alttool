@@ -1,0 +1,38 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "yourname.quick-editor-panel",
+	"name": "Quick Editor Panel",
+	"version": "v1.0.0",
+	"developer": "YourName",
+	"description": "Удобная панель быстрых действий в редакторе для телефонов и ПК.",
+	"settings": {
+		"panel-scale": {
+			"type": "float",
+			"name": "Размер панели",
+			"description": "Масштаб панели. Применяется при следующем входе в редактор.",
+			"default": 0.7,
+			"min": 0.4,
+			"max": 1.5,
+			"control": { "slider": true }
+		},
+		"panel-opacity": {
+			"type": "int",
+			"name": "Прозрачность фона",
+			"default": 190,
+			"min": 40,
+			"max": 255,
+			"control": { "slider": true }
+		},
+		"start-collapsed": {
+			"type": "bool",
+			"name": "Свёрнута при старте",
+			"default": false
+		}
+	}
+}
